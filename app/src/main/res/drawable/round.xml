@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Create the circular border -->
+    <item>
+        <shape
+            android:shape="oval">
+            <stroke
+                android:color="@color/Christmas_green"
+                android:width="2dp" />
+        </shape>
+    </item>
+
+    <!-- Add the icon in the center of the circle -->
+    <item android:gravity="center">
+        <bitmap
+            android:src="@drawable/television"
+            android:gravity="center"
+
+            android:width="100dp"
+            android:height="100dp"
+        />
+    </item>
+</layer-list>

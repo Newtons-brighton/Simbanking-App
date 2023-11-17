@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="32dp"
+        android:textSize="18dp"
+        android:text="View the last 20 transactions done within the app "
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="32dp"
+        android:textSize="13dp"
+        android:text="History for" />
+
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/statementspinner"
+        />
+
+     <Button
+        android:layout_width="365dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="50dp"
+        android:text="PROCEED"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/Christmas_green"
+        android:background="@drawable/rounded_button"
+        />
+
+</LinearLayout>

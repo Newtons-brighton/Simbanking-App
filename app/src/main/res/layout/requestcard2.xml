@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview_one"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="800dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#323232"
+        >
+
+        <TextView
+            android:id="@+id/simba_fan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIMBA FAN CLASSIC"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/tap12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to see the features and apply for this card"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="50dp"
+            />
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview_one"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="800dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#323232"
+        >
+
+        <TextView
+            android:id="@+id/simba_platinum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIMBA PLATINUM"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/tap22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to see the features and apply for this card"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="50dp"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview_one"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="800dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#323232"
+        >
+
+        <TextView
+            android:id="@+id/yanga_visa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YANGA VISA CARD"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/tap32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to see the features and apply for this card"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="50dp"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview_one"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="800dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#323232"
+        >
+
+        <TextView
+            android:id="@+id/simba_club"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIMBA CLUB"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/tap42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to see the features and apply for this card"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="50dp"
+            />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview_one"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="800dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#323232"
+        >
+
+        <TextView
+            android:id="@+id/al_barakah_visa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AL BARAKAH VISA"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/tap52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to see the features and apply for this card"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="50dp"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+ <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview_one"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+     android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="800dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#323232"
+        >
+
+        <TextView
+            android:id="@+id/al_barakah_gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AL BARAKAH GOLD"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/tap62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to see the features and apply for this card"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="50dp"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview_one"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="800dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#323232"
+        >
+
+        <TextView
+            android:id="@+id/al_barakah_platinum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AL BARAKAH PLATINUM"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/tap72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to see the features and apply for this card"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="50dp"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview_one"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="800dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#323232"
+        >
+
+        <TextView
+            android:id="@+id/al_barakah_infinite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AL BARAKAH INFINITE"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/tap82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to see the features and apply for this card"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="50dp"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

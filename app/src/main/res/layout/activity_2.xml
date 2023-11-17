@@ -1,0 +1,341 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        >
+
+        <Button
+            android:id="@+id/btnmore"
+            android:layout_width="350dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="15dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/round_button"
+            app:backgroundTint="@color/grey"
+            android:drawableLeft="@drawable/info"
+            android:drawableRight="@drawable/pp"
+            android:text="Invite friends &amp; enjoy Simbanking "
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/txtmore1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="20dp"
+            android:text="CRDB"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp">
+
+        <Button
+            android:id="@+id/btnmore2"
+            android:layout_width="117dp"
+            android:layout_height="92dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/round_button"
+            android:drawableTop="@drawable/place"
+            android:text="Locations"
+            app:backgroundTint="@color/grey"
+            android:paddingTop="22dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="11.1dp" />
+
+        <Button
+            android:id="@+id/btnmore3"
+            android:layout_width="117dp"
+            android:layout_height="92dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="0dp"
+            android:paddingTop="22dp"
+            app:backgroundTint="@color/grey"
+            android:background="@drawable/round_button"
+            android:drawableTop="@drawable/transfer"
+            android:text="Forex rates"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="11.1dp"
+            android:textStyle="bold"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            />
+
+        <Button
+            android:id="@+id/btnmore4"
+            android:layout_width="117dp"
+            android:layout_height="92dp"
+            android:layout_weight="1"
+            android:paddingTop="22dp"
+            app:backgroundTint="@color/grey"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/round_button"
+            android:drawableTop="@drawable/insurance"
+            android:text="Insurance Purchase"
+            android:textAllCaps="false"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="11.1dp"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp">
+
+        <Button
+            android:id="@+id/btnmore5"
+            android:layout_width="117dp"
+            android:layout_height="92dp"
+            android:layout_marginStart="2dp"
+            app:backgroundTint="@color/grey"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/round_button"
+            android:drawableTop="@drawable/partnship"
+            android:text="Shareholders"
+            android:paddingTop="22dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="11.1dp" />
+
+        <Button
+            android:id="@+id/btnmore6"
+            android:layout_width="117dp"
+            android:layout_height="92dp"
+            app:backgroundTint="@color/grey"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/round_button"
+            android:drawableTop="@drawable/partnship"
+            android:text="Shareholders"
+            android:paddingTop="22dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="11.1dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/txtmore2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="20dp"
+            android:paddingTop="0dp"
+            android:text="SUPPORT"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp">
+
+        <Button
+            android:id="@+id/btnmore7"
+            android:layout_width="167dp"
+            android:layout_height="92dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="6dp"
+            app:backgroundTint="@color/grey"
+            android:background="@drawable/round_button"
+            android:drawableTop="@drawable/partnship"
+            android:text="Lets chat"
+            android:paddingTop="22dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="11.1dp" />
+
+        <Button
+            android:id="@+id/btnmore8"
+            android:layout_width="167dp"
+            android:layout_height="92dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="6dp"
+            app:backgroundTint="@color/grey"
+            android:background="@drawable/round_button"
+            android:drawableTop="@drawable/partnship"
+            android:text="Frequently asked questions"
+            android:paddingTop="22dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="11.1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp">
+        <TextView
+            android:id="@+id/txtmore3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="20dp"
+            android:text="LETS CONNECT ONLINE"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/insta"
+            ></ImageButton>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yutube"
+            android:layout_marginLeft="43dp"
+            ></ImageButton>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yutube"
+            android:layout_marginLeft="43dp"
+            ></ImageButton>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/twitter"
+            android:layout_marginLeft="43dp"
+            ></ImageButton>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/facebook"
+            android:layout_marginLeft="43dp"
+            ></ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp">
+        <TextView
+            android:id="@+id/txtmore4"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="20dp"
+            android:text="CONTACT US"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/call"
+            ></ImageButton>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+
+
+        <Button
+            android:id="@+id/btnmore9"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="20dp"
+            android:text="Terms and conditions "
+            android:textAllCaps="false"
+            android:background="@drawable/empty_background"
+            android:textSize="10sp"
+            android:drawableRight="@drawable/pp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

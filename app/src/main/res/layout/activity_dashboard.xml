@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity"
+    >
+
+
+    <ImageView
+        android:id="@+id/imgView3"
+        android:layout_width="43dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/userp" />
+
+    <TextView
+        android:id="@+id/txView"
+        style="@style/TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/imgView3"
+        android:text="Good afternoon,"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txViewj"
+        style="@style/TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txView"
+        android:layout_marginLeft="80dp"
+        android:text="Jimmy,"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:id="@+id/Relativelayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/comment"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="330dp"
+            android:paddingLeft="13dp"
+            android:layout_marginTop="20dp"
+            app:backgroundTint="@color/grey"
+            android:drawableLeft="@drawable/comments"
+            android:background="@drawable/round_button"
+            />
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="750dp"
+        >
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        app:itemRippleColor="@null"
+        app:labelVisibilityMode="labeled"
+        android:background="#1E1D1D"
+        android:id="@+id/btnNav"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_below="@+id/frameLayout"
+        app:menu="@menu/bottom_nav_menu"
+        />
+
+</RelativeLayout>

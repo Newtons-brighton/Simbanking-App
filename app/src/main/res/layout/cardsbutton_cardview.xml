@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:layout_marginLeft="45dp"
+        >
+        <Button
+            android:id="@+id/button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/credit"
+            app:backgroundTint="@color/grey"
+            android:background="@drawable/back_button"
+            >
+        </Button>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button"
+            android:textSize="10dp"
+            android:text="Freeze card"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:layout_marginLeft="135dp"
+        >
+        <Button
+            android:padding="9dp"
+            android:drawableLeft="@drawable/store"
+            android:id="@+id/button2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:backgroundTint="@color/grey"
+            android:background="@drawable/back_button"
+            >
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button2"
+            android:textSize="10dp"
+            android:text="Request card"
+            android:id="@+id/text2"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:layout_marginLeft="230dp"
+        >
+        <Button
+            android:drawableLeft="@drawable/airtime"
+            android:padding="8dp"
+            android:id="@+id/button3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:backgroundTint="@color/grey"
+            android:background="@drawable/back_button"            >
+        </Button>
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button3"
+            android:textSize="10dp"
+            android:text="Request"
+            />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/request"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button3"
+            android:textSize="10dp"
+            android:text="status"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:layout_marginLeft="320dp"
+        >
+        <Button
+            android:padding="8dp"
+            android:drawableLeft="@drawable/luku"
+            android:id="@+id/button4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:backgroundTint="@color/grey"
+            android:background="@drawable/back_button"            >
+        </Button>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button4"
+            android:textSize="10dp"
+            android:layout_marginLeft="8dp"
+            android:text="Manage"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/online"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button4"
+            android:textSize="10dp"
+            android:layout_marginLeft="13dp"
+            android:text="online"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

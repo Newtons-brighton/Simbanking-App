@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <!--parent CardView-->
+    <com.google.android.material.card.MaterialCardView
+        android:outlineSpotShadowColor="@color/Christmas_green"
+        android:id="@+id/cardview_one"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="800dp"
+        app:cardCornerRadius="300dp"
+        app:cardBackgroundColor="#323232"
+        app:strokeColor="@color/white"
+        app:strokeWidth="3dp"
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <!--This layout only holds a TextView
+                inside a CardView-->
+            <TextView
+                android:id="@+id/enjoy"
+                android:text="Enjoy digital Loans experience visit our"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+
+                android:textSize="10dp" />
+            <TextView
+                android:text="branches for more infomation "
+                android:id="@+id/branches"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/enjoy"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:textSize="11dp" />
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- This is extra space given to maintain a
+        gap between two consecutive CardViews-->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+</RelativeLayout>

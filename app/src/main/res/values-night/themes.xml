@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Simbanking" parent="Theme.MaterialComponents">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#09EC09</item>
+        <item name="colorPrimaryVariant">@color/center_grey</item>
+        <item name="colorOnPrimary">@color/purple_500</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+       </style>
+
+    <style name="SCREEN" >
+        <item name="android:background">#121212</item>
+    </style>
+
+    <!--TextColor if the dark Mode is on-->
+    <style name="TEXT">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--Button background if the dark Mode is on-->
+    <style name="BUTTON">
+        <item name="android:background">@drawable/button_background_dark</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="SMALL_VIEW">
+        <item name="android:background">@drawable/small_view_dark</item>
+    </style>
+
+    <style name="DASHBOARD_BTN">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ROUND_BACK_GREY">
+        <item name="android:background">@drawable/round_back_grey</item>
+    </style>
+
+    <style name="ROUND_BACK_GREEN">
+        <item name="android:background">@drawable/round_back_green</item>
+    </style>
+
+
+    <style name="BOTTOM_NAV_LAYOUT">
+        <item name="android:background">@color/center_grey</item>
+    </style>
+
+
+    <style name="fragment1" parent="Theme.MaterialComponents">
+
+    </style>
+
+</resources>

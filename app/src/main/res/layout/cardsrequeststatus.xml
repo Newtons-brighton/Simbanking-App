@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/visit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="15dp"
+        android:text="Please select the account you applied the card(s) for"
+        android:textColor="@color/white" />
+
+
+
+    <TextView
+        android:id="@+id/withdraw"
+        android:layout_below="@+id/visit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Select account"
+        android:textColor="#737373"
+        />
+
+    <Spinner
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/statementspinner"
+        />
+
+
+    <Button
+        android:layout_width="365dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="25dp"
+        android:layout_height="50dp"
+        android:text="PROCEED"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/Christmas_green"
+        android:background="@drawable/rounded_button"
+        />
+
+
+</RelativeLayout>

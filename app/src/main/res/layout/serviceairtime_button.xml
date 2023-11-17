@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/info" />
+
+
+    <TextView
+        android:id="@+id/visit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="15dp"
+        android:text="Buy airtime for all netwrks(Vodacom,Tigo,Airtime,Zantel,
+        Halotel and TTCL)"
+        android:textColor="@color/white" />
+
+
+    <TextView
+        android:id="@+id/withdraw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/visit"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="From"
+        android:textColor="@color/white" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/withdraw"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:text="mobile number (all networks)"
+        android:textColor="@color/white" />
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobile"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:layout_marginLeft="280dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/contact"
+            android:background="@android:color/transparent"
+            />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardview"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:text="Amount"
+        android:textColor="@color/white" />
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amount"
+        android:id="@+id/cardview2"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputamount"
+            android:layout_width="400dp"
+            android:layout_below="@+id/amount"
+            android:layout_height="wrap_content"
+            android:hint="0710661252"
+            android:textColor="@color/white"
+            />
+    </com.google.android.material.card.MaterialCardView>
+    <TextView
+        android:id="@+id/transaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardview2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:text="Transaction description (optional)"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_below="@+id/transaction"
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:textSize="13dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/minus"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:text="Remove Description"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:layout_below="@+id/description"
+        android:id="@+id/proceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/proceed_background"
+        android:layout_marginTop="100dp"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/Christmas_green"
+        android:text="PROCEED"
+        android:textColor="@color/black" />
+</RelativeLayout>

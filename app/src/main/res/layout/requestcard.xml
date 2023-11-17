@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/pleaseselect"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select your card of choice"
+        android:layout_marginLeft="20dp"
+        />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview_on"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:elevation="800dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#323232"
+        >
+
+        <TextView
+            android:id="@+id/visa_Tz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VISA TZS"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/tap1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to see the features and apply for this card"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="50dp"
+            />
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview_two"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="800dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#323232"
+        >
+
+        <TextView
+            android:id="@+id/visa_Gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VISA GOLD - TZS"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/tap2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to see the features and apply for this card"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="50dp"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview_three"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="800dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#323232"
+        >
+
+        <TextView
+            android:id="@+id/visa_platinum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VISA PLATNUM TZS"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/tap3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to see the features and apply for this card"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="50dp"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview_four"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="800dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#323232"
+        >
+
+        <TextView
+            android:id="@+id/visa_infinite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VISA INFINITE TZS"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/tap4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to see the features and apply for this card"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="50dp"
+            />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview_one"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="800dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#323232"
+        >
+
+        <TextView
+            android:id="@+id/union_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNION PAY TZS"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/tap5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to see the features and apply for this card"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="50dp"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

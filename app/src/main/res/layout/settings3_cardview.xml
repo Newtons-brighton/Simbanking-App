@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <!--parent CardView-->
+    <androidx.cardview.widget.CardView
+        android:backgroundTint="@color/center_grey"
+        android:id="@+id/cardview_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:elevation="500dp"
+        >
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/security"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="30dp"
+                android:text="SECURITY"
+
+                />
+
+            <RelativeLayout
+                android:id="@+id/securitylayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginRight="15dp">
+
+                <Button
+                    android:id="@+id/pin_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:drawableLeft="@drawable/key"
+                    android:drawableRight="@drawable/pp"
+                    android:drawablePadding="150dp"
+                    android:gravity="start|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Change PIN"
+                    android:textAllCaps="false"
+                    android:backgroundTint="#323232"
+                    android:textColor="@color/white"
+                    />
+
+                <Button
+                    android:id="@+id/validator_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="64dp"
+                    android:drawableLeft="@drawable/receipt"
+                    android:drawableRight="@drawable/pp"
+                    android:drawablePadding="150dp"
+                    android:gravity="start|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Receipt Validator"
+                    android:textAllCaps="false"
+                    android:backgroundTint="#323232"
+                    android:textColor="@color/white"
+                    />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

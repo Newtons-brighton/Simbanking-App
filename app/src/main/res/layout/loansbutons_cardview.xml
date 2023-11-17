@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="45dp"
+        >
+        <Button
+            android:id="@+id/button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/loan"
+            app:backgroundTint="@color/grey"
+            android:background="@drawable/back_button"            >
+        </Button>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/Apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button"
+            android:textSize="12dp"
+            android:text="Apply"
+
+            />
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/Loans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Apply"
+            android:textSize="12dp"
+            android:text="Loan"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="135dp"
+        >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/cashback"
+            android:padding="9dp"
+            app:backgroundTint="@color/grey"></Button>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button2"
+            android:textSize="12dp"
+            android:text="Repay"
+            android:id="@+id/Repay"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="230dp"
+        >
+        <Button
+            android:drawableLeft="@drawable/credit"
+            android:padding="8dp"
+            android:id="@+id/button3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:backgroundTint="@color/grey"
+            android:background="@drawable/back_button"
+            >
+        </Button>
+
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/Loan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button3"
+            android:textSize="12dp"
+            android:text="Loan"/>
+
+        <TextView
+            android:id="@+id/Summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Loan"
+            android:textSize="12dp"
+            android:text="Summary"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="320dp"
+        >
+        <Button
+            android:padding="8dp"
+            android:drawableLeft="@drawable/tems"
+            android:id="@+id/button4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:backgroundTint="@color/grey"
+            android:background="@drawable/back_button"
+            >
+        </Button>
+
+        <TextView
+            android:id="@+id/Terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button4"
+            android:textSize="12dp"
+            android:text="Terms of"/>
+        <TextView
+            android:id="@+id/Service"
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Terms"
+            android:textSize="12dp"
+            android:text="Service"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

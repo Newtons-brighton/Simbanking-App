@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/overview"
+        android:icon="@drawable/overview"
+        android:title="Overview"
+       />
+
+    <item
+        android:id="@+id/transfer"
+        android:icon="@drawable/transfer"
+        android:title="Transfer"
+      />
+
+    <item
+        android:id="@+id/cashout"
+        android:icon="@drawable/card"
+        android:title="Cashout"
+        />
+
+    <item
+        android:id="@+id/services"
+        android:icon="@drawable/services"
+        android:title="Services "
+
+        />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"
+        android:title="Settings"
+        />
+
+</menu>

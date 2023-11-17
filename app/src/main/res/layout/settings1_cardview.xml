@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+    <!--parent CardView-->
+    <androidx.cardview.widget.CardView
+        android:backgroundTint="@color/center_grey"
+        android:id="@+id/cardview_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:elevation="0dp"
+        >
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_marginTop="55dp"
+                    android:id="@+id/cardview_two"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    app:cardCornerRadius="200dp"
+                    android:layout_marginLeft="290dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/cardview_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/user"
+                    android:scaleType="centerCrop"
+                    />
+                </androidx.cardview.widget.CardView>
+
+                <Button
+                    android:id="@+id/profile"
+                    android:backgroundTint="#2F3030"
+                    android:layout_width="32dp"
+                    android:layout_height="43dp"
+                    app:cornerRadius="100dp"
+                    android:padding="4dp"
+                    android:drawableRight="@drawable/camera"
+                    android:layout_marginLeft="215dp"
+                    android:layout_marginTop="115dp"
+                    />
+            </RelativeLayout>
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/mandates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="150dp"
+                android:text="MANDATES"
+                />
+
+            <RelativeLayout
+                android:id="@+id/layout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginRight="15dp">
+
+                <Button
+                    android:backgroundTint="#2F3030"
+                    android:id="@+id/mandates_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="start|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:drawableLeft="@drawable/user"
+                    android:drawableRight="@drawable/pp"
+                    android:text="E-mandate"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    />
+
+            </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

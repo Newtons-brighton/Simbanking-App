@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:id="@+id/morelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="50dp"
+        >
+        <Button
+            android:id="@+id/Buttonmore"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/menu"
+            android:paddingLeft="12dp"
+            app:backgroundTint="@color/grey"
+            />
+
+        <TextView
+            android:id="@+id/more"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Buttonmore"
+            android:text="More"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/payments"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/more"
+            android:text="Payments"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="220dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/you"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:text="FOR YOU"/>
+
+
+        <Button
+            android:layout_marginLeft="165dp"
+            android:layout_toRightOf="@+id/you"
+            android:id="@+id/moreservice"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:text="MORE SERVICS"
+            android:textAllCaps="false"
+            android:background="@drawable/empty_background"
+            android:textSize="12sp"
+            android:drawableRight="@drawable/pp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

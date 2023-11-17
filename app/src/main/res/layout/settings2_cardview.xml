@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:backgroundTint="@color/center_grey"
+        android:id="@+id/cardview_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:elevation="500dp"
+
+>
+        <RelativeLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/layout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp">
+
+                <Button
+                    android:id="@+id/account_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:drawableLeft="@drawable/link"
+                    android:drawableRight="@drawable/pp"
+                    android:drawablePadding="150dp"
+                    android:gravity="start|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Link account"
+                    android:textAllCaps="false"
+                    android:backgroundTint="#323232"
+                    android:textColor="@color/white"
+
+                    />
+
+
+
+                <Button
+                    android:layout_marginTop="65dp"
+                    android:id="@+id/set_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:drawableLeft="@drawable/coin"
+                    android:drawableRight="@drawable/pp"
+                    android:drawablePadding="150dp"
+                    android:gravity="start|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Set default account"
+                    android:textAllCaps="false"
+                    android:backgroundTint="#323232"
+                    android:textColor="@color/white"
+                    />
+                <Button
+                    android:layout_marginTop="130dp"
+                    android:id="@+id/bio_update"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:drawableLeft="@drawable/fingerprint"
+                    android:drawableRight="@drawable/pp"
+                    android:drawablePadding="150dp"
+                    android:gravity="start|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Bio Update"
+                    android:textAllCaps="false"
+                    android:backgroundTint="#323232"
+                    android:textColor="@color/white"
+                    />
+
+                <Button
+                    android:layout_marginTop="195dp"
+                    android:id="@+id/fav_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:drawableLeft="@drawable/rturn"
+                    android:drawableRight="@drawable/pp"
+                    android:drawablePadding="150dp"
+                    android:gravity="start|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Favorite services "
+                    android:textAllCaps="false"
+                    android:backgroundTint="#323232"
+                    android:textColor="@color/white"></Button>
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

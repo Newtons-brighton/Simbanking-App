@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentTransfer"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRANSFERS"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginLeft="180dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                app:backgroundTint="@color/grey"
+                app:cornerRadius="20dp"
+                app:strokeColor="#A6F3B9"
+                app:strokeWidth="2dp"
+                android:text="STANDING ORDER"
+                android:paddingBottom="0dp"
+                android:drawableRight="@drawable/sort"
+                android:textColor="#A6F3B9"
+                android:textSize="9dp"
+                />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:drawableLeft="@drawable/right"
+            android:padding="12dp"
+            android:id="@+id/button"
+            app:backgroundTint="@color/grey"
+            android:background="@drawable/back_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/text1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button"
+            android:textSize="10dp"
+            android:text="CRDB Account"/>
+        <RelativeLayout
+            android:id="@+id/layout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:backgroundTint="@color/grey"
+                android:background="@drawable/back_button"
+                android:drawableLeft="@drawable/benk"
+                android:padding="15dp"
+                ></Button>
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button2"
+                android:layout_marginTop="0dp"
+                android:text="Other Banks"
+                android:textSize="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="185dp"
+            >
+            <Button
+                android:drawableLeft="@drawable/smartphone"
+                android:padding="12dp"
+                android:id="@+id/button3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:backgroundTint="@color/grey"
+                android:background="@drawable/back_button"
+                >
+            </Button>
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/text3"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button3"
+                android:textSize="10dp"
+                android:text="Mobile Networks"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            >
+            <Button
+                android:padding="12dp"
+                android:drawableLeft="@drawable/atm"
+                android:id="@+id/button4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:backgroundTint="@color/grey"
+                android:background="@drawable/back_button"                >
+            </Button>
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button4"
+                android:textSize="10dp"
+                android:layout_marginLeft="5dp"
+                android:text="Cardless"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="60dp"
+       android:layout_marginTop="150dp"
+       android:background="@android:color/transparent"
+       android:drawableRight="@drawable/favorite"
+       android:padding="30dp"
+       android:layout_marginLeft="160dp"
+       />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:id="@+id/textfav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#cdb633"
+        android:layout_marginLeft="155dp"
+        android:text="No Favorites"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:id="@+id/textbelowfav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#cdb633"
+        android:layout_marginStart="30dp"
+        android:text="At the end of your transaction you can add the payee"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#cdb633"
+        android:layout_marginStart="30dp"
+        android:paddingLeft="138dp"
+        android:text="to favorites"
+        />
+
+    
+</LinearLayout>

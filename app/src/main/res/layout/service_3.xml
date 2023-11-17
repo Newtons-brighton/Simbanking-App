@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/favorite"
+        android:drawableLeft="@drawable/recent"
+        android:drawableRight="@drawable/pp"
+        android:layout_width="350dp"
+        android:layout_marginLeft="28dp"
+        android:layout_height="60dp"
+        android:background="@drawable/favorite_background"
+        android:layout_marginTop="15dp"
+        app:backgroundTint="@color/center_grey"
+        android:textSize="12dp"
+        android:text="Favorites and Recents"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/reccuring"
+        android:text="Recurring Payments"
+        android:drawableLeft="@drawable/cashback"
+        android:drawableRight="@drawable/pp"
+        android:drawableTint="#575656"
+        android:layout_width="350dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="28dp"
+        android:backgroundTint="@color/center_grey"
+        app:backgroundTint="@color/center_grey"
+        android:textSize="12dp"
+        android:background="@drawable/favorite_background"
+        android:textColor="@color/white"
+        android:layout_height="60dp"/>
+</LinearLayout>

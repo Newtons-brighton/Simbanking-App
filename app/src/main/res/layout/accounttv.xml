@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select your TV provider"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/azam"
+        android:layout_below="@+id/select"
+        android:layout_width="350dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:text="AZAM TV"
+        android:layout_height="wrap_content"
+
+        />
+
+</RelativeLayout>

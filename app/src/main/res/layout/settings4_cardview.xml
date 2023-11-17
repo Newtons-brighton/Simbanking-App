@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+
+    <androidx.cardview.widget.CardView
+        android:backgroundTint="@color/center_grey"
+        android:id="@+id/cardview_one"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="500dp">
+
+
+        <RelativeLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/application"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="20dp"
+                android:text="APPLICATION"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+
+                />
+
+            <RelativeLayout
+                android:id="@+id/layout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp">
+
+                    <Button
+                        android:id="@+id/switch_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:backgroundTint="#323232"
+                        android:drawableLeft="@drawable/world"
+                        android:drawableRight="@drawable/pp"
+                        android:drawablePadding="150dp"
+                        android:gravity="start|center_vertical"
+                        android:paddingLeft="20dp"
+                        android:text="Switch to swahili"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"></Button>
+
+
+
+                <Button
+                    android:id="@+id/biologin_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="70dp"
+                    android:backgroundTint="#323232"
+                    android:drawableLeft="@drawable/face"
+                    android:drawableRight="@drawable/pp"
+                    android:drawablePadding="150dp"
+                    android:gravity="start|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Enable biometric login"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/theme_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="140dp"
+                    android:backgroundTint="#323232"
+                    android:drawableLeft="@drawable/moon"
+                    android:drawableRight="@drawable/pp"
+                    android:drawablePadding="150dp"
+                    android:gravity="start|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Choose Theme"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/unregister_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="215dp"
+                    android:backgroundTint="#323232"
+                    android:drawableLeft="@drawable/rturn"
+                    android:drawableRight="@drawable/pp"
+                    android:drawablePadding="150dp"
+                    android:gravity="start|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Unregister Device"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

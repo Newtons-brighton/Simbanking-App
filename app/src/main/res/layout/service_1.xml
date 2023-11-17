@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/categorieslayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:text="TOP CATEGORIES" />
+
+        <Button
+            android:layout_marginLeft="290dp"
+            android:id="@+id/see"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:paddingRight="0dp"
+            android:text="SEE ALL"
+            android:textAllCaps="false"
+            android:background="@drawable/empty_background"
+            android:textSize="10sp"
+            android:drawableRight="@drawable/pp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/lukulayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/categorieslayout">
+
+
+        <Button
+            android:id="@+id/Buttonluku"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/luku"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/grey" />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/luku"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Buttonluku"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:text="Luku" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/airtimelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/categorieslayout"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@id/lukulayout">
+
+
+        <Button
+            android:id="@+id/Buttonairtime"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/luku"
+            android:paddingLeft="10dp"
+            app:backgroundTint="@color/grey" />
+
+        <TextView
+            android:id="@+id/airtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Buttonairtime"
+            android:layout_centerHorizontal="true"
+            android:text="Airtime"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tvlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/categorieslayout"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/airtimelayout">
+
+
+        <Button
+            android:id="@+id/Buttontv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/tv"
+            android:paddingLeft="13dp"
+            app:backgroundTint="@color/grey" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Buttontv"
+            android:layout_centerHorizontal="true"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:text="TV" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/governmentlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/categorieslayout"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="38dp"
+        android:layout_toEndOf="@id/tvlayout">
+
+
+        <Button
+            android:id="@+id/Buttongovernment"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/store"
+            android:paddingLeft="10dp"
+            app:backgroundTint="@color/grey" />
+
+        <TextView
+            android:id="@+id/government"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Buttongovernment"
+            android:text="Government"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/educationlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lukulayout"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="50dp"
+        >
+
+
+        <Button
+            android:id="@+id/Buttoneducation"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/graduated"
+            android:paddingLeft="10dp"
+            app:backgroundTint="@color/grey" />
+
+        <TextView
+            android:id="@+id/education"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Buttoneducation"
+            android:text="Education"
+            android:textSize="10dp"
+            android:textStyle="bold"
+
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/airlinelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/airtimelayout"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="140dp"
+        >
+
+
+        <Button
+            android:id="@+id/Buttonairline"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/flight"
+            android:paddingLeft="13dp"
+            app:backgroundTint="@color/grey" />
+
+        <TextView
+            android:id="@+id/airline"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Buttonairline"
+            android:text="Airline"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/waterlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvlayout"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="230dp"
+        >
+
+
+        <Button
+            android:id="@+id/Buttonwater"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/drop"
+            android:paddingLeft="12dp"
+            app:backgroundTint="@color/grey" />
+
+        <TextView
+            android:id="@+id/water"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Buttonwater"
+            android:text="Water Bills"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/qrlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/governmentlayout"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="320dp"
+        >
+
+
+        <Button
+            android:id="@+id/Buttonqr"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/qr"
+            android:paddingLeft="13dp"
+            app:backgroundTint="@color/grey" />
+
+        <TextView
+            android:id="@+id/qr"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Buttonqr"
+            android:text="QR"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/insurancelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/qrlayout"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="50dp"
+        >
+
+
+        <Button
+            android:id="@+id/Buttoninsurance"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/insurance"
+            android:paddingLeft="10dp"
+            app:backgroundTint="@color/grey" />
+
+        <TextView
+            android:id="@+id/insurance"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Buttoninsurance"
+            android:text="Insurance"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/hospitalslayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/airlinelayout"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="140dp"
+        >
+
+
+        <Button
+            android:id="@+id/Buttonhospitals"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/hospital"
+            android:paddingLeft="13dp"
+            app:backgroundTint="@color/grey" />
+
+        <TextView
+            android:id="@+id/hospitals"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Buttonhospitals"
+            android:text="Hospitals"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/stockslayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/waterlayout"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="230dp"
+        >
+
+
+        <Button
+            android:id="@+id/Buttonstocks"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/stock"
+            android:paddingLeft="12dp"
+            app:backgroundTint="@color/grey" />
+
+        <TextView
+            android:id="@+id/stocks"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Buttonstocks"
+            android:text="stocks and"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/rates"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stocks"
+            android:text="Rates"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/ticketslayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/qrlayout"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="320dp"
+        >
+
+
+        <Button
+            android:id="@+id/Buttontickets"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/validating"
+            android:paddingLeft="12dp"
+            app:backgroundTint="@color/grey" />
+
+        <TextView
+            android:id="@+id/tickets"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Buttontickets"
+            android:text="Tickets"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/investimentslayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/insurancelayout"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="50dp"
+        >
+
+
+        <Button
+            android:id="@+id/Buttoninvestiments"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/stock"
+            android:paddingLeft="13dp"
+            app:backgroundTint="@color/grey" />
+
+        <TextView
+            android:id="@+id/investiments"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Buttoninvestiments"
+            android:text="Investiments"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gameslayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hospitalslayout"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="140dp"
+        >
+
+
+        <Button
+            android:id="@+id/Buttongames"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/console"
+            android:paddingLeft="12dp"
+            app:backgroundTint="@color/grey" />
+
+        <TextView
+            android:id="@+id/games"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Buttongames"
+            android:text="Games"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/tembolayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stockslayout"
+        android:layout_marginTop="43dp"
+        android:layout_marginStart="230dp"
+        >
+
+
+        <Button
+            android:id="@+id/Buttontembo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/gift"
+            android:paddingLeft="13dp"
+            app:backgroundTint="@color/grey" />
+
+        <TextView
+            android:id="@+id/tembo"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Buttontembo"
+            android:text="Tembo Points"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/footballlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ticketslayout"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="320dp"
+        >
+
+
+        <Button
+            android:id="@+id/Buttonfootball"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/ball"
+            android:paddingLeft="12dp"
+            app:backgroundTint="@color/grey" />
+
+        <TextView
+            android:id="@+id/football"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Buttonfootball"
+            android:text="Footaball"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

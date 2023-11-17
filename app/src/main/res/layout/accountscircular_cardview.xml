@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <!--parent CardView-->
+    <com.google.android.material.card.MaterialCardView
+        android:outlineSpotShadowColor="@color/Christmas_green"
+        android:id="@+id/cardview_one"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="800dp"
+        app:cardCornerRadius="300dp"
+        app:cardBackgroundColor="#323232"
+        app:strokeColor="@color/Christmas_green"
+        app:strokeWidth="9dp"
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+
+            <!--This layout only holds a TextView
+                inside a CardView-->
+            <TextView
+                android:id="@+id/saving_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+            <TextView
+                android:id="@+id/accNo"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/saving_text"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/white"
+                android:textSize="13dp" />
+            <TextView
+                android:id="@+id/actual_text"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/accNo"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+            <TextView
+                android:id="@+id/actual_balance"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/actual_text"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/available_text"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/actual_balance"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/availableNo"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/available_text"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                />
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <Button
+        android:id="@+id/hide"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        app:backgroundTint="@color/grey"
+        android:background="@drawable/show_hide_button"
+        android:drawableLeft="@drawable/show_password_selector"
+        android:paddingLeft="17dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="160dp"
+        />
+
+    <!-- This is extra space given to maintain a
+        gap between two consecutive CardViews-->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+</RelativeLayout>

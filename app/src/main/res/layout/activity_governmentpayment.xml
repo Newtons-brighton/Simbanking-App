@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+      <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/info"
+        />
+
+
+    <TextView
+        android:id="@+id/visit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="15dp"
+        android:text="Make payment to all government institutions through control numbers such as TRA, traffic fines,
+water bills, immigration, etc."
+        android:textColor="@color/white" />
+
+
+
+    <TextView
+        android:id="@+id/withdraw"
+        android:layout_below="@+id/visit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Enter control number or scan to pay"
+        android:textColor="#737373"
+        />
+
+
+    <Button
+        android:layout_width="365dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="25dp"
+        android:layout_height="50dp"
+        android:text="GET DETAILS"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/Christmas_green"
+        android:background="@drawable/rounded_button"
+        />
+
+
+</RelativeLayout>

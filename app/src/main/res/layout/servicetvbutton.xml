@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Please select your TV provider"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialcardview1"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        app:cardBackgroundColor="@android:color/transparent">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardview_one"
+            android:layout_width="35dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="15dp"
+            android:elevation="8dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="30dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp">
+
+            <RelativeLayout
+                android:id="@+id/relativelayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!-- Add an ImageView for the icon -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/tv" />
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/azam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/cardview_one"
+            android:text="AZAM TV" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/pp" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+    android:id="@+id/materialcardview2"
+    android:layout_width="350dp"
+    android:layout_height="80dp"
+    android:layout_marginTop="20dp"
+    android:layout_below="@+id/materialcardview1"
+    app:cardBackgroundColor="@android:color/transparent"
+    android:layout_marginLeft="25dp"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview_one"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="0dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp">
+
+        <RelativeLayout
+            android:id="@+id/relativelayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <!-- Add an ImageView for the icon -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/tv"
+                />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/dstv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="100dp"
+        android:text="DSTV"
+        android:layout_toRightOf="@+id/cardview_one"
+        />
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/pp"
+        />
+
+</com.google.android.material.card.MaterialCardView>
+<com.google.android.material.card.MaterialCardView
+    android:id="@+id/materialcardview3"
+    android:layout_width="350dp"
+    android:layout_height="80dp"
+    android:layout_marginTop="20dp"
+    android:layout_below="@+id/materialcardview2"
+    app:cardBackgroundColor="@android:color/transparent"
+    android:layout_marginLeft="25dp"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview_three"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="0dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp">
+
+        <RelativeLayout
+            android:id="@+id/relativelayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <!-- Add an ImageView for the icon -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/tv"
+                />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/zuku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="100dp"
+        android:text="Zuku"
+        android:layout_toRightOf="@+id/cardview_one"
+        />
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/pp"
+        />
+
+</com.google.android.material.card.MaterialCardView>
+<com.google.android.material.card.MaterialCardView
+    android:id="@+id/materialcardview4"
+    android:layout_width="350dp"
+    android:layout_height="80dp"
+    android:layout_marginTop="20dp"
+    android:layout_below="@+id/materialcardview3"
+    app:cardBackgroundColor="@android:color/transparent"
+    android:layout_marginLeft="25dp"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview_four"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="0dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp">
+
+        <RelativeLayout
+            android:id="@+id/relativelayout4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <!-- Add an ImageView for the icon -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/tv"
+                />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/startimes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="100dp"
+        android:text="STAR TIMES"
+        android:layout_toRightOf="@+id/cardview_one"
+        />
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/pp"
+        />
+
+</com.google.android.material.card.MaterialCardView>
+</RelativeLayout>

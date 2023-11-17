@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Simbanking"
+        tools:targetApi="31">
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountStatement.AccountsStatement"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Simbanking" />
+        <activity
+            android:name=".Mandates"
+            android:exported="false"
+            android:parentActivityName=".Mandates"
+            android:theme="@style/Theme.Simbanking" />
+        <activity
+            android:name=".MandatesActivity"/>
+        <activity
+            android:name=".Activity2"/>
+
+        <activity
+            android:name=".FragmentSettings"
+            android:exported="false"
+            />
+        <activity
+            android:name=".CircularViewActivity"/>
+
+        <activity
+            android:name=".FreezeCard"/>
+        <activity
+            android:name=".RequestCard"/>
+        <activity
+            android:name=".RequestStatus"/>
+        <activity
+            android:name=".AccountsGovernment"/>
+ <activity
+            android:name=".AccountStatement.AccountsTv"/>
+<activity
+            android:name=".cardless"/>
+        <activity
+            android:name=".ServiceLukuButton"/>
+        <activity
+            android:name=".ServiceAirtimeButton"/>
+        <activity
+            android:name=".ServiceGovernmentButton"/>
+
+        <activity
+            android:name=".ServiceTvButton"/>
+
+
+    </application>
+
+</manifest>
